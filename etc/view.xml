@@ -1,0 +1,5 @@
+<view>
+    <exclude>
+        <item type="file">Turiknox_Hotjar::js/hotjar.js</item>
+    </exclude>
+</view>

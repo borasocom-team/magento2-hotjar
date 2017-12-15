@@ -1,0 +1,16 @@
+<?php
+/*
+ * Turiknox_Hotjar
+
+ * @category   Turiknox
+ * @package    Turiknox_Hotjar
+ * @copyright  Copyright (c) 2017 Turiknox
+ * @license    https://github.com/Turiknox/magento2-hotjar/blob/master/LICENSE.md
+ * @version    1.0.0
+ */
+?>
+<?php if ($block->isEnabled()): ?>
+<script>
+    var hotjarId = <?php echo $block->escapeHtml($block->getHjSiteId()); ?>;
+</script>
+<?php endif; ?>
